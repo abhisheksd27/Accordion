@@ -1,0 +1,40 @@
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title h3 {
+    margin: 0;
+  }
+  
+  .title span {
+    font-size: 1.5rem;
+  }
+  
+  .item h3 {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  button {
+    margin-bottom: 10px;
+  }
+  
