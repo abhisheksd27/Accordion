@@ -36,7 +36,7 @@ const Accordion = () => {
                 <span>+</span>
               </div>
               {
-                enableMultiSelection ? multipleSelected.indexOf(data.id) !== -1 && <div className="content">{data.answer} </div> : selected ===data.id && (<h3>{data.answer}</h3>)
+                enableMultiSelection ? multipleSelected.indexOf(data.id) !== -1 && <h3 className="content">{data.answer} </h3> : selected ===data.id && (<h3>{data.answer}</h3>)
               }
               {/* {
                 selected===data.id || multipleSelected.indexOf(data.id !==-1)? <h3>{data.answer}</h3>:null
